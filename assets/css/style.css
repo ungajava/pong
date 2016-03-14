@@ -1,0 +1,101 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+body {
+	width:100%;
+	height:100%;
+}
+
+#controls {
+	width:400px;
+	height:480px;
+	margin:5px;
+	border:1px solid black;
+	float:left;
+	position:relative;
+}
+
+#score_card {
+	height:100px;
+	width:640px;
+	margin:5px;
+	border:1px solid black;
+	float: left;
+	position:relative;
+}
+
+#score_card .player {
+	width:49%;
+	border:1px solid black;
+	display:inline-block;
+	height:33%;
+	font-size:24px;
+	text-align:center;
+}
+
+#score_card .score {
+	width:49%;
+	border:1px solid black;
+	display:inline-block;
+	text-align:center;
+	font-size:24px;
+	height:60%;
+}
+
+#container {
+	position:absolute;
+	left:0;
+	right:0;
+	top:0;
+	bottom:0;
+}
+
+#board {
+	border:1px solid black;
+	background-color:lightblue;
+	position:relative;
+	margin:5px;
+	height:480px;
+	width:640px;
+	float:left;
+}
+
+.paddle {
+	border:1px solid black;
+	background-color:white;
+	width:25px;
+	height:75px;
+	position:absolute;
+}
+
+#paddle_left {
+	left:50px;
+	top:50px;
+}
+
+#paddle_right {
+	top:50px;
+	right:50px;
+}
+
+#speed{
+	width:90% !important;
+	left:5%;
+}
+
+#ball i {
+	font-size:26px;
+}
+
+#ball {
+	height:25px;
+	width:25px;
+	border-radius:50%;
+	position:absolute;
+	left:50%;
+	top:50%;
+	background-color:orange;
+	border:1px solid black;
+}
